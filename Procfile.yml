@@ -1,2 +1,2 @@
-release: ./release-tasks.sh
+release: ./run.sh
 web: gunicorn eaglercraft-server-v1.wsgi
