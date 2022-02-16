@@ -1,3 +1,2 @@
-release:       ./run.sh
-worker:        env QUEUE=* bundle exec rake resque:work
-urgentworker:  env QUEUE=urgent bundle exec rake resque:work
+release: ./release-tasks.sh
+web: gunicorn eaglercraft-server-v1.wsgi
