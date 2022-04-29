@@ -1,2 +1,1 @@
 release: ./run.sh
-web: gunicorn eaglercraft-server-v1.wsgi
