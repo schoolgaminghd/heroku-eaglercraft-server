@@ -1,1 +1,1 @@
-release: ./run.sh
+run: chmod +x run.sh && ./run.sh 
